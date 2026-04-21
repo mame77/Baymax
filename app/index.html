@@ -1,74 +1,13 @@
-<!doctype html>
-<html lang="ja">
+<!DOCTYPE html>
+<html lang="">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vue App</title>
-    <style>
-      :root {
-        color-scheme: light;
-        font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
-        background: #f4efe6;
-        color: #1b1f23;
-      }
-
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        background:
-          radial-gradient(circle at top left, #f8d9a0 0, transparent 28%),
-          linear-gradient(135deg, #f4efe6 0%, #ece7dd 100%);
-      }
-
-      .card {
-        width: min(520px, calc(100vw - 32px));
-        padding: 32px;
-        border-radius: 24px;
-        background: rgba(255, 252, 247, 0.86);
-        box-shadow: 0 18px 48px rgba(56, 46, 30, 0.12);
-        backdrop-filter: blur(8px);
-      }
-
-      h1 {
-        margin: 0 0 8px;
-        font-size: clamp(2rem, 7vw, 3.4rem);
-        line-height: 1;
-        letter-spacing: -0.04em;
-      }
-
-      p {
-        margin: 0 0 20px;
-        font-size: 1rem;
-        color: #4d514f;
-      }
-
-      .row {
-        display: flex;
-        gap: 12px;
-        align-items: center;
-      }
-
-      button {
-        border: 0;
-        border-radius: 999px;
-        padding: 12px 18px;
-        background: #111827;
-        color: #fffdf8;
-        font: inherit;
-        cursor: pointer;
-      }
-
-      .count {
-        min-width: 3ch;
-        font-weight: 700;
-        font-size: 1.3rem;
-      }
-    </style>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
